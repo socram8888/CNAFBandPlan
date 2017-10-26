@@ -153,12 +153,14 @@
 		<!-- Hueco para UN-29 (407,700MHz) -->
 		<RangeEntry minFrequency="407712500" maxFrequency="410000000" mode="NFM" step="12500" color="blue">31 PMR</RangeEntry>
 
-		<!-- Banda 406,1 a 410 MHz -->
-		<RangeEntry minFrequency="406100000" maxFrequency="407687500" mode="NFM" step="12500" color="blue">31 PMR</RangeEntry>
+		<!-- Banda de 410 a 430 MHz -->
+		<RangeEntry minFrequency="410000000" maxFrequency="415300000" step="25000" color="blue">31 TETRA</RangeEntry>
+		<RangeEntry minFrequency="415300000" maxFrequency="420000000" mode="NFM" step="12500" color="blue">31 PMR</RangeEntry>
+		<RangeEntry minFrequency="420000000" maxFrequency="425300000" step="25000" color="blue">31 TETRA</RangeEntry>
+		<RangeEntry minFrequency="425300000" maxFrequency="430000000" mode="NFM" step="12500" color="blue">31 PMR</RangeEntry>
 
 		<!-- Banda de 430 a 440 MHz -->
 		<RangeEntry minFrequency="430000000" maxFrequency="440000000" mode="NFM" step="12500" color="magenta">31 Radioaficionados</RangeEntry>
-		<RangeEntry minFrequency="433050000" maxFrequency="434790000" color="green">31 ICM</RangeEntry>
 
 		<!-- Banda de 440 a 450 MHz -->
 		<RangeEntry minFrequency="440000000" maxFrequency="446000000" mode="NFM" step="12500" color="blue">31 PMR</RangeEntry>
@@ -166,7 +168,15 @@
 		<RangeEntry minFrequency="446200000" maxFrequency="450000000" mode="NFM" step="12500" color="blue">31 PMR</RangeEntry>
 
 		<!-- Banda 450 a 470 MHz -->
-		<!-- TODO -->
+		<RangeEntry minFrequency="450000000" maxFrequency="461287500" mode="NFM" step="12500" color="blue">31 PMR</RangeEntry>
+		<RangeEntry minFrequency="461287500" maxFrequency="461312500" step="25000" color="blue">31 Radiobúsqueda</RangeEntry>
+		<RangeEntry minFrequency="461312500" maxFrequency="461687500" mode="NFM" step="12500" color="blue">31 PMR</RangeEntry>
+		<RangeEntry minFrequency="461687500" maxFrequency="461712500" step="25000" color="blue">31 Radiobúsqueda</RangeEntry>
+		<RangeEntry minFrequency="461712500" maxFrequency="461762500" mode="NFM" step="12500" color="blue">31 PMR</RangeEntry>
+		<RangeEntry minFrequency="461762500" maxFrequency="461787500" step="25000" color="blue">31 Radiobúsqueda</RangeEntry>
+		<RangeEntry minFrequency="461787500" maxFrequency="461812500" mode="NFM" step="12500" color="blue">31 PMR</RangeEntry>
+		<RangeEntry minFrequency="461812500" maxFrequency="461837500" step="25000" color="blue">31 Radiobúsqueda</RangeEntry>
+		<RangeEntry minFrequency="461837500" maxFrequency="470000000" mode="NFM" step="12500" color="blue">31 PMR</RangeEntry>
 
 	<!-- UN-39 Banda 868-870 MHz -->
 		<RangeEntry minFrequency="868000000" maxFrequency="868600000" color="green">39 SRD</RangeEntry>
