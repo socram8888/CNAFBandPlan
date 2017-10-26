@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<ArrayOfRangeEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!-- Código de colores: -->
+	<!--  * verde: exento de licencia (ISM, PMR 446, LPD...) -->
+	<!--  * azul: uso privado con licencia -->
+	<!--  * naranja: uso privado con licencia y por el estado -->
+	<!--  * rojo: uso exclusivo del estado -->
+	<!--  * magenta: radioaficionados -->
+	<!--  * teal: radiodifusión -->
+	<!--  * purple: GSM -->
+
+	<!-- UN-0 Usos del estado por debajo de 27MHz -->
+		<!-- Uso preferente del Ministerio de Defensa -->
+		<RangeEntry minFrequency="14000" maxFrequency="19950" color="orange">0 Defensa</RangeEntry>
+		<RangeEntry minFrequency="20050" maxFrequency="70000" color="orange">0 Defensa</RangeEntry>
+		<RangeEntry minFrequency="126000" maxFrequency="130000" color="orange">0 Defensa</RangeEntry>
+		<RangeEntry minFrequency="140000" maxFrequency="148500" color="orange">0 Defensa</RangeEntry>
+		<RangeEntry minFrequency="283500" maxFrequency="315000" color="orange">0 Defensa</RangeEntry>
+		<RangeEntry minFrequency="2300000" maxFrequency="2498000" color="orange">0 Defensa</RangeEntry>
+		<RangeEntry minFrequency="5730000" maxFrequency="5900000" color="orange">0 Defensa</RangeEntry>
+		<RangeEntry minFrequency="9040000" maxFrequency="9400000" color="orange">0 Defensa</RangeEntry>
+		<RangeEntry minFrequency="9900000" maxFrequency="9995000" color="orange">0 Defensa</RangeEntry>
+		<RangeEntry minFrequency="12100000" maxFrequency="12230000" color="orange">0 Defensa</RangeEntry>
+		<RangeEntry minFrequency="15800000" maxFrequency="16360000" color="orange">0 Defensa</RangeEntry>
+		<RangeEntry minFrequency="24000000" maxFrequency="24890000" color="orange">0 Defensa</RangeEntry>
+
+		<!-- Uso preferente del Ministerio de Defensa en móvil aeronáutico -->
+		<RangeEntry minFrequency="3800000" maxFrequency="3900000" color="orange">0 Defensa (aeronáutica)</RangeEntry>
+		<RangeEntry minFrequency="4750000" maxFrequency="4850000" color="orange">0 Defensa (aeronáutica)</RangeEntry>
+		<RangeEntry minFrequency="5450000" maxFrequency="5480000" color="orange">0 Defensa (aeronáutica)</RangeEntry>
+		<RangeEntry minFrequency="23200000" maxFrequency="23350000" color="orange">0 Defensa (aeronáutica)</RangeEntry>
+
+		<!-- Uso exclusivo del Ministerio de Defensa para móvil aeronáutico -->
+		<RangeEntry minFrequency="3025000" maxFrequency="3155000" color="red">0 Defensa (aeronáutica)</RangeEntry>
+		<RangeEntry minFrequency="3900000" maxFrequency="3950000" color="red">0 Defensa (aeronáutica)</RangeEntry>
+		<RangeEntry minFrequency="4700000" maxFrequency="4750000" color="red">0 Defensa (aeronáutica)</RangeEntry>
+		<RangeEntry minFrequency="5680000" maxFrequency="5730000" color="red">0 Defensa (aeronáutica)</RangeEntry>
+		<RangeEntry minFrequency="6685000" maxFrequency="6765000" color="red">0 Defensa (aeronáutica)</RangeEntry>
+		<RangeEntry minFrequency="8965000" maxFrequency="9040000" color="red">0 Defensa (aeronáutica)</RangeEntry>
+		<RangeEntry minFrequency="11175000" maxFrequency="11275000" color="red">0 Defensa (aeronáutica)</RangeEntry>
+		<RangeEntry minFrequency="13200000" maxFrequency="13260000" color="red">0 Defensa (aeronáutica)</RangeEntry>
+		<RangeEntry minFrequency="15010000" maxFrequency="15100000" color="red">0 Defensa (aeronáutica)</RangeEntry>
+		<RangeEntry minFrequency="17970000" maxFrequency="18030000" color="red">0 Defensa (aeronáutica)</RangeEntry>
+
+		<!-- Uso exclusivo del Ministerio de Defensa para móvil marítimo en naves -->
+		<RangeEntry minFrequency="4152000" maxFrequency="4172000" color="red">0 Defensa (barco)</RangeEntry>
+		<RangeEntry minFrequency="6233000" maxFrequency="6261000" color="red">0 Defensa (barco)</RangeEntry>
+		<RangeEntry minFrequency="8300000" maxFrequency="8340000" color="red">0 Defensa (barco)</RangeEntry>
+		<RangeEntry minFrequency="12368000" maxFrequency="12420000" color="red">0 Defensa (barco)</RangeEntry>
+		<RangeEntry minFrequency="16549000" maxFrequency="16617000" color="red">0 Defensa (barco)</RangeEntry>
+		<RangeEntry minFrequency="18846000" maxFrequency="18870000" color="red">0 Defensa (barco)</RangeEntry>
+		<RangeEntry minFrequency="22180000" maxFrequency="22240000" color="red">0 Defensa (barco)</RangeEntry>
+		<RangeEntry minFrequency="25121500" maxFrequency="25161250" color="red">0 Defensa (barco)</RangeEntry>
+
+		<!-- Uso preferente del Ministerio de Defensa para móvil marítimo en costa -->
+		<RangeEntry minFrequency="4221000" maxFrequency="4351000" color="orange">0 Defensa (costa)</RangeEntry>
+		<RangeEntry minFrequency="6332500" maxFrequency="6501000" color="orange">0 Defensa (costa)</RangeEntry>
+		<RangeEntry minFrequency="8438000" maxFrequency="8707000" color="orange">0 Defensa (costa)</RangeEntry>
+		<RangeEntry minFrequency="12658500" maxFrequency="13077000" color="orange">0 Defensa (costa)</RangeEntry>
+		<RangeEntry minFrequency="16904500" maxFrequency="17242000" color="orange">0 Defensa (costa)</RangeEntry>
+		<RangeEntry minFrequency="19705000" maxFrequency="19755000" color="orange">0 Defensa (costa)</RangeEntry>
+		<RangeEntry minFrequency="22445500" maxFrequency="22696000" color="orange">0 Defensa (costa)</RangeEntry>
+		<RangeEntry minFrequency="26122400" maxFrequency="26145000" color="orange">0 Defensa (costa)</RangeEntry>
+
+	<!-- UN-1 Radiodifusión sonora en onda media -->
+		<RangeEntry minFrequency="526500" maxFrequency="1606500" mode="AM" step="1000" color="teal">1 Radio AM</RangeEntry>
+
+	<!-- UN-2 Radiobúsqueda en 27 MHz -->
+		<!-- TODO -->
+
+	<!-- UN-3 Banda Ciudadana -->
+		<RangeEntry minFrequency="26960000" maxFrequency="27410000" mode="AM" step="5000" color="green">3 Banda ciudadana</RangeEntry>
+
+	<!-- UN-4 Uso de baja potencia en la banda ICM de 27 MHz -->
+		<RangeEntry minFrequency="26957000" maxFrequency="27283000" color="green">4 ICM</RangeEntry>
+
+	<!-- UN-5 Usos de radio en embarcaciones -->
+		<RangeEntry minFrequency="26900000" maxFrequency="26950000" mode="NFM" step="10000" color="blue">5 Móvil marítimo</RangeEntry>
+
+	<!-- UN-7 Servicio Móvil Terrestre en 27 MHz -->
+		<RangeEntry minFrequency="27500000" maxFrequency="27600000" mode="NFM" step="10000" color="blue">7 Móvil terrestre</RangeEntry>
+		<RangeEntry minFrequency="27840000" maxFrequency="27600000" mode="NFM" step="10000" color="blue">7 Móvil terrestre</RangeEntry>
+
+	<!-- UN-8 Usos de baja potencia en 30 MHz -->
+		<RangeEntry minFrequency="29705000" maxFrequency="29995000" mode="NFM" step="5000" color="green">8 Uso común</RangeEntry>
+		<RangeEntry minFrequency="30030000" maxFrequency="30300000" mode="NFM" step="5000" color="green">8 Uso común</RangeEntry>
+
+	<!-- UN-9 Teléfonos inalámbricos -->
+		<RangeEntry minFrequency="31012500" maxFrequency="31337500" mode="NFM" step="25000" color="green">9 Teléfono (base)</RangeEntry>
+		<RangeEntry minFrequency="39912500" maxFrequency="40237500" mode="NFM" step="25000" color="green">9 Teléfono (móvil)</RangeEntry>
+
+	<!-- UN-10 Telemandos para aeromodelismo -->
+		<RangeEntry minFrequency="35025000" maxFrequency="35205000" mode="NFM" step="10000" color="green">10 Aeromodelismo</RangeEntry>
+
+	<!-- UN-11 Usos de baja potencia en la banda ICM de 40 MHz -->
+		<RangeEntry minFrequency="40660000" maxFrequency="40700000" mode="NFM" step="10000" color="green">11 ICM</RangeEntry>
+
+	<!-- UN-12 Radiobúsqueda en 40 MHz -->
+		<RangeEntry minFrequency="40862500" maxFrequency="40962500" mode="NFM" step="25000" color="blue">12 Radiobúsqueda</RangeEntry>
+
+	<!-- UN-14 Banda de frecuencias 41-47 MHz -->
+		<RangeEntry minFrequency="41000000" maxFrequency="47000000" color="red">14 Defensa</RangeEntry>
+
+	<!-- UN-15 Banda de frecuencias 41-47 MHz -->
+		<RangeEntry minFrequency="47000000" maxFrequency="49000000" color="red">15 Defensa</RangeEntry>
+		<RangeEntry minFrequency="49000000" maxFrequency="50000000" color="blue">15 Móvil terrestre</RangeEntry>
+		<RangeEntry minFrequency="52000000" maxFrequency="66000000" color="blue">15 Móvil terrestre</RangeEntry>
+		<RangeEntry minFrequency="66000000" maxFrequency="68000000" color="red">15 Defensa</RangeEntry>
+
+	<!-- UN-17 Radiodifusión sonora en ondas métrica -->
+		<RangeEntry minFrequency="87500000" maxFrequency="108000000" mode="WFM" step="100000" color="blue">17 Radio FM</RangeEntry>
+
+	<!-- UN-18 Compañías de transporte aéreo -->
+		<RangeEntry minFrequency="131387500" maxFrequency="131987500" step="25000" color="blue">18 Transporte aéreo</RangeEntry>
+		<RangeEntry minFrequency="136700000" maxFrequency="136975000" color="blue">18 Transporte aéreo</RangeEntry>
+
+	<!-- UN-19 Banda 138-144MHz -->
+		<RangeEntry minFrequency="138000000" maxFrequency="144000000" color="blue">19 Móvil aeronáutico</RangeEntry>
+
+	<!-- UN-22 Radiobúsqueda de cobertura nacional -->
+		<RangeEntry minFrequency="148412500" maxFrequency="148437500" color="blue">22 Radiobúsqueda</RangeEntry>
+		<RangeEntry minFrequency="148612500" maxFrequency="148637500" color="blue">22 Radiobúsqueda</RangeEntry>
+
+	<!-- UN-26 Banda de frecuencias 174-195MHz -->
+		<RangeEntry minFrequency="174000000" maxFrequency="195000000" color="blue">26 Móvil terrestre</RangeEntry>
+
+	<!-- UN-27 Banda de frecuencias 223 a 235 MHz -->
+		<RangeEntry minFrequency="223000000" maxFrequency="224500000" step="12500" color="blue">27 Trunked (base)</RangeEntry>
+		<RangeEntry minFrequency="224500000" maxFrequency="225000000" color="red">27 Defensa</RangeEntry>
+		<RangeEntry minFrequency="225000000" maxFrequency="229000000" step="12500" color="blue">27 Trunked (móvil)</RangeEntry>
+
+	<!-- UN-28 Banda de frecuencias 235 a 399,9 MHz -->
+		<RangeEntry minFrequency="235000000" maxFrequency="328600000" color="red">28 Defensa</RangeEntry>
+		<RangeEntry minFrequency="328600000" maxFrequency="335400000" color="blue">28 Radionavegación (ILS)</RangeEntry>
+		<RangeEntry minFrequency="335400000" maxFrequency="380000000" color="red">28 Defensa</RangeEntry>
+		<RangeEntry minFrequency="380000000" maxFrequency="385000000" color="red">28 Cuerpos de seguridad</RangeEntry>
+		<RangeEntry minFrequency="385000000" maxFrequency="390000000" color="red">28 Defensa</RangeEntry>
+		<RangeEntry minFrequency="390000000" maxFrequency="395000000" color="red">28 Cuerpos de seguridad</RangeEntry>
+		<RangeEntry minFrequency="395000000" maxFrequency="399900000" color="red">28 Defensa</RangeEntry>
+
+	<!-- UN-29 Transmisión de datos en 407 MHz -->
+		<RangeEntry minFrequency="407687500" maxFrequency="407712500" step="25000" color="green">29 Telemandos</RangeEntry>
+
+	<!-- UN-30 Transmisión de datos en 407 MHz -->
+		<RangeEntry minFrequency="433050000" maxFrequency="434790000" color="green">30 LPD433</RangeEntry>
+
+	<!-- UN-31 Banda 406-470 MHz -->
+		<!-- Banda 406 a 406,1 MHz -->
+		<RangeEntry minFrequency="406000000" maxFrequency="406100000" color="blue">31 Balizas satélite</RangeEntry>
+
+		<!-- Banda 406,1 a 410 MHz -->
+		<RangeEntry minFrequency="406100000" maxFrequency="407687500" mode="NFM" step="12500" color="blue">31 PMR</RangeEntry>
+		<!-- Hueco para UN-29 (407,700MHz) -->
+		<RangeEntry minFrequency="407712500" maxFrequency="410000000" mode="NFM" step="12500" color="blue">31 PMR</RangeEntry>
+
+		<!-- Banda 406,1 a 410 MHz -->
+		<RangeEntry minFrequency="406100000" maxFrequency="407687500" mode="NFM" step="12500" color="blue">31 PMR</RangeEntry>
+
+		<!-- Banda de 430 a 440 MHz -->
+		<RangeEntry minFrequency="430000000" maxFrequency="440000000" mode="NFM" step="12500" color="magenta">31 Radioaficionados</RangeEntry>
+		<RangeEntry minFrequency="433050000" maxFrequency="434790000" color="green">31 ICM</RangeEntry>
+
+		<!-- Banda de 440 a 450 MHz -->
+		<RangeEntry minFrequency="440000000" maxFrequency="446000000" mode="NFM" step="12500" color="blue">31 PMR</RangeEntry>
+		<RangeEntry minFrequency="446000000" maxFrequency="446200000" mode="NFM" step="12500" color="green">31 PMR446</RangeEntry>
+		<RangeEntry minFrequency="446200000" maxFrequency="450000000" mode="NFM" step="12500" color="blue">31 PMR</RangeEntry>
+
+		<!-- Banda 450 a 470 MHz -->
+		<!-- TODO -->
+
+	<!-- UN-39 Banda 868-870 MHz -->
+		<RangeEntry minFrequency="868000000" maxFrequency="868600000" color="green">39 SRD</RangeEntry>
+		<RangeEntry minFrequency="868600000" maxFrequency="868700000" step="25000" color="green">39 Alarmas</RangeEntry>
+		<RangeEntry minFrequency="868700000" maxFrequency="869200000" color="green">39 SRD</RangeEntry>
+		<RangeEntry minFrequency="869200000" maxFrequency="869250000" step="25000" color="green">39 Teleasistencia</RangeEntry>
+		<RangeEntry minFrequency="869250000" maxFrequency="869300000" step="25000" color="green">39 Alarmas</RangeEntry>
+		<RangeEntry minFrequency="869300000" maxFrequency="869400000" step="25000" color="green">39 Alarmas</RangeEntry>
+		<RangeEntry minFrequency="869400000" maxFrequency="869650000" step="25000" color="green">39 SRD</RangeEntry>
+		<RangeEntry minFrequency="869650000" maxFrequency="869700000" step="25000" color="green">39 Alarmas</RangeEntry>
+		<RangeEntry minFrequency="869700000" maxFrequency="870000000" color="green">39 SRD</RangeEntry>
+
+	<!-- UN-40 Bandas 870-880 MHz y 915-925 MHz -->
+		<RangeEntry minFrequency="870000000" maxFrequency="876000000" color="blue">40 PMR digital</RangeEntry>
+		<RangeEntry minFrequency="876000000" maxFrequency="880000000" color="purple">40 GSM-R</RangeEntry>
+		<RangeEntry minFrequency="915000000" maxFrequency="921000000" color="blue">40 PMR digital</RangeEntry>
+		<RangeEntry minFrequency="921000000" maxFrequency="925000000" color="purple">40 GSM-R</RangeEntry>
+
+	<!-- UN-41 Bandas 880-915 MHz y 925-960 MHz -->
+		<RangeEntry minFrequency="880000000" maxFrequency="915000000" color="purple">41 E-GSM</RangeEntry>
+		<RangeEntry minFrequency="925000000" maxFrequency="960000000" color="purple">41 E-GSM</RangeEntry>
+
+	<!-- UN-77 Datos en 400 MHz -->
+		<RangeEntry minFrequency="406412500" maxFrequency="406562500" step="25000" color="purple">77 Datos</RangeEntry>
+		<RangeEntry minFrequency="411412500" maxFrequency="411562500" step="25000" color="purple">77 Datos</RangeEntry>
+
+	<!-- UN-100 Radioaficionados en la banda de 50 MHz -->
+		<RangeEntry minFrequency="50000000" maxFrequency="52000000" color="magenta">100 Radioaficionados</RangeEntry>
+
+	<!-- UN-104 Teléfonos inalámbricos (CT1-E) -->
+		<RangeEntry minFrequency="870000000" maxFrequency="871000000" mode="NFM" step="12500" color="green">104 CT1 (móvil)</RangeEntry>
+		<RangeEntry minFrequency="915000000" maxFrequency="916000000" mode="NFM" step="12500" color="green">104 CT1 (base)</RangeEntry>
+
+	<!-- UN-151 Dispositivos PMSE en la banda 823-832 MHz -->
+		<RangeEntry minFrequency="823000000" maxFrequency="832000000" color="green">151 PMSE</RangeEntry>
+
+	<!-- UN-152  Repetidores de radionavegación por satélite -->
+		<!-- TODO -->
+
+	<!-- UN-153 Banda 790-862 MHz -->
+		<RangeEntry minFrequency="790000000" maxFrequency="821000000" color="purple">153 EUDD</RangeEntry>
+		<RangeEntry minFrequency="832000000" maxFrequency="862000000" color="purple">153 EUDD</RangeEntry>
+
+</ArrayOfRangeEntry>
