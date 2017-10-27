@@ -252,8 +252,8 @@
 		<!-- Suprimida CNAF 2005 -->
 
 	<!-- UN-77 Datos en 400 MHz -->
-		<RangeEntry minFrequency="406412500" maxFrequency="406562500" step="25000" color="purple">77 Datos</RangeEntry>
-		<RangeEntry minFrequency="411412500" maxFrequency="411562500" step="25000" color="purple">77 Datos</RangeEntry>
+		<RangeEntry minFrequency="406412500" maxFrequency="406562500" step="25000" color="blue">77 Datos</RangeEntry>
+		<RangeEntry minFrequency="411412500" maxFrequency="411562500" step="25000" color="blue">77 Datos</RangeEntry>
 
 	<!-- UN-80 Usos del Estado en la banda 32 a 37,680 MHz -->
 		<RangeEntry minFrequency="32000000" maxFrequency="35025000" color="red">80 Defensa</RangeEntry>
