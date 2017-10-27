@@ -315,6 +315,9 @@
 		<RangeEntry minFrequency="181100000" maxFrequency="182700000" mode="WFM" step="100000" color="blue">106 Enlace estéreo</RangeEntry>
 		<RangeEntry minFrequency="182750000" maxFrequency="187850000" mode="WFM" step="100000" color="blue">106 Enlace mono</RangeEntry>
 
+	<!-- UN-107 Radioaficionados en la banda 135,7-137,8 kHz -->
+		<RangeEntry minFrequency="135700" maxFrequency="137800" mode="CW" color="magenta">107 Radioaficionados</RangeEntry>
+
 	<!-- UN-111 Banda 862-868 MHz -->
 		<RangeEntry minFrequency="862000000" maxFrequency="868000000" mode="WFM" step="100000" color="blue">111 Enlace radiodifusión</RangeEntry>
 		<RangeEntry minFrequency="863000000" maxFrequency="868000000" color="green">111 Uso común</RangeEntry>
@@ -335,6 +338,15 @@
 
 	<!-- UN-131 Banda de frecuencias 39 a 39,2 MHz -->
 		<RangeEntry minFrequency="39000000" maxFrequency="39200000" color="blue">131 Reflexión meteoros</RangeEntry>
+
+	<!-- UN-132 Banda de frecuencias 68-87,5 MHz -->
+		<RangeEntry minFrequency="68000000" maxFrequency="74800000" mode="NFM" step="6250" color="blue">132 PMR (móvil)</RangeEntry>
+		<RangeEntry minFrequency="74800000" maxFrequency="75200000" color="blue">132 Radionavegación (ILS)</RangeEntry>
+		<RangeEntry minFrequency="75200000" maxFrequency="77700000" mode="NFM" step="6250" color="blue">132 PMR (móvil)</RangeEntry>
+		<RangeEntry minFrequency="77700000" maxFrequency="77800000" mode="NFM" step="6250" color="blue">132 PMR</RangeEntry>
+		<RangeEntry minFrequency="77800000" maxFrequency="84600000" mode="NFM" step="6250" color="blue">132 PMR (base)</RangeEntry>
+		<RangeEntry minFrequency="84600000" maxFrequency="85000000" mode="NFM" step="6250" color="blue">132 PMR</RangeEntry>
+		<RangeEntry minFrequency="85000000" maxFrequency="87500000" mode="NFM" step="6250" color="blue">132 PMR (base)</RangeEntry>
 
 	<!-- UN-135 Aplicaciones RFID en 865-868 MHz -->
 		<RangeEntry minFrequency="865000000" maxFrequency="868000000" color="green">135 RFID</RangeEntry>
