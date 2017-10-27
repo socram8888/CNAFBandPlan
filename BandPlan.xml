@@ -107,6 +107,9 @@
 		<RangeEntry minFrequency="52000000" maxFrequency="66000000" color="blue">15 Móvil terrestre</RangeEntry>
 		<RangeEntry minFrequency="66000000" maxFrequency="68000000" color="red">15 Defensa</RangeEntry>
 
+	<!-- UN-16 -->
+		<!-- Suprimida CNAF 2013 -->
+
 	<!-- UN-17 Radiodifusión sonora en ondas métrica -->
 		<RangeEntry minFrequency="87500000" maxFrequency="108000000" mode="WFM" step="100000" color="blue">17 Radio FM</RangeEntry>
 
@@ -117,12 +120,27 @@
 	<!-- UN-19 Banda 138-144MHz -->
 		<RangeEntry minFrequency="138000000" maxFrequency="144000000" color="blue">19 Móvil aeronáutico</RangeEntry>
 
+	<!-- UN-20 -->
+		<!-- Suprimida CNAF 2005 -->
+
+	<!-- UN-21 -->
+		<!-- Suprimida CNAF 1996 -->
+
 	<!-- UN-22 Radiobúsqueda de cobertura nacional -->
 		<RangeEntry minFrequency="148412500" maxFrequency="148437500" color="blue">22 Radiobúsqueda</RangeEntry>
 		<RangeEntry minFrequency="148612500" maxFrequency="148637500" color="blue">22 Radiobúsqueda</RangeEntry>
 
+	<!-- UN-23 -->
+		<!-- Suprimida CNAF 2013 -->
+
+	<!-- UN-24 -->
+		<!-- Suprimida CNAF 2007 -->
+
+	<!-- UN-25 -->
+		<!-- Suprimida CNAF 2013 -->
+
 	<!-- UN-26 Banda de frecuencias 174-195MHz -->
-		<RangeEntry minFrequency="174000000" maxFrequency="195000000" color="blue">26 Móvil terrestre</RangeEntry>
+		<!-- UN-95, UN-105, UN-106 y UN-127 -->
 
 	<!-- UN-27 Banda de frecuencias 223 a 235 MHz -->
 		<RangeEntry minFrequency="223000000" maxFrequency="224500000" step="12500" color="blue">27 Trunked (base)</RangeEntry>
@@ -203,12 +221,42 @@
 		<RangeEntry minFrequency="406412500" maxFrequency="406562500" step="25000" color="purple">77 Datos</RangeEntry>
 		<RangeEntry minFrequency="411412500" maxFrequency="411562500" step="25000" color="purple">77 Datos</RangeEntry>
 
+	<!-- UN-95 Micrófonos inalámbricos en VHF -->
+		<RangeEntry minFrequency="174000000" maxFrequency="174400000" mode="WFM" step="100000" color="green">95 Micrófonos</RangeEntry>
+		<RangeEntry minFrequency="175400000" maxFrequency="175600000" mode="WFM" step="100000" color="green">95 Micrófonos</RangeEntry>
+		<RangeEntry minFrequency="176200000" maxFrequency="176400000" mode="WFM" step="100000" color="green">95 Micrófonos</RangeEntry>
+		<RangeEntry minFrequency="179200000" maxFrequency="179400000" mode="WFM" step="100000" color="green">95 Micrófonos</RangeEntry>
+
+	<!-- UN-105 Banda 174-181 MHz -->
+		<RangeEntry minFrequency="174650000" maxFrequency="175250000" mode="WFM" step="100000" color="blue">105 Enlace mono</RangeEntry>
+		<RangeEntry minFrequency="175750000" maxFrequency="176050000" mode="WFM" step="100000" color="blue">105 Enlace mono</RangeEntry>
+		<RangeEntry minFrequency="176550000" maxFrequency="178950000" mode="WFM" step="100000" color="blue">105 Enlace mono</RangeEntry>
+		<RangeEntry minFrequency="179650000" maxFrequency="180850000" mode="WFM" step="100000" color="blue">105 Enlace mono</RangeEntry>
+
+	<!-- UN-106 Banda 181-188 MHz -->
+		<RangeEntry minFrequency="181100000" maxFrequency="182700000" mode="WFM" step="100000" color="blue">106 Enlace estéreo</RangeEntry>
+		<RangeEntry minFrequency="182750000" maxFrequency="187850000" mode="WFM" step="100000" color="blue">106 Enlace mono</RangeEntry>
+
 	<!-- UN-100 Radioaficionados en la banda de 50 MHz -->
 		<RangeEntry minFrequency="50000000" maxFrequency="52000000" color="magenta">100 Radioaficionados</RangeEntry>
 
 	<!-- UN-104 Teléfonos inalámbricos (CT1-E) -->
 		<RangeEntry minFrequency="870000000" maxFrequency="871000000" mode="NFM" step="12500" color="green">104 CT1 (móvil)</RangeEntry>
 		<RangeEntry minFrequency="915000000" maxFrequency="916000000" mode="NFM" step="12500" color="green">104 CT1 (base)</RangeEntry>
+
+	<!-- UN-127 Enlaces auxiliares de radiodifusión en 188-195 MHz -->
+		<RangeEntry minFrequency="188000000" maxFrequency="188200000" mode="WFM" step="100000" color="green">127 Micrófonos</RangeEntry>
+		<RangeEntry minFrequency="188200000" maxFrequency="188400000" mode="WFM" step="100000" color="blue">127 Enlace radiodifusión</RangeEntry>
+		<RangeEntry minFrequency="188400000" maxFrequency="188600000" mode="WFM" step="100000" color="green">127 Micrófonos</RangeEntry>
+		<RangeEntry minFrequency="188600000" maxFrequency="189000000" mode="WFM" step="100000" color="blue">127 Enlace radiodifusión</RangeEntry>
+		<RangeEntry minFrequency="189000000" maxFrequency="189200000" mode="WFM" step="100000" color="green">127 Micrófonos</RangeEntry>
+		<RangeEntry minFrequency="189200000" maxFrequency="189800000" mode="WFM" step="100000" color="blue">127 Enlace radiodifusión</RangeEntry>
+		<RangeEntry minFrequency="189800000" maxFrequency="190000000" mode="WFM" step="100000" color="green">127 Micrófonos</RangeEntry>
+		<RangeEntry minFrequency="190000000" maxFrequency="191800000" mode="WFM" step="100000" color="blue">127 Enlace radiodifusión</RangeEntry>
+		<RangeEntry minFrequency="191800000" maxFrequency="192000000" mode="WFM" step="100000" color="green">127 Micrófonos</RangeEntry>
+		<RangeEntry minFrequency="192000000" maxFrequency="194400000" mode="WFM" step="100000" color="blue">127 Enlace radiodifusión</RangeEntry>
+		<RangeEntry minFrequency="194400000" maxFrequency="194600000" mode="WFM" step="100000" color="green">127 Micrófonos</RangeEntry>
+		<RangeEntry minFrequency="194600000" maxFrequency="195000000" mode="WFM" step="100000" color="blue">127 Enlace radiodifusión</RangeEntry>
 
 	<!-- UN-151 Dispositivos PMSE en la banda 823-832 MHz -->
 		<RangeEntry minFrequency="823000000" maxFrequency="832000000" color="green">151 PMSE</RangeEntry>
