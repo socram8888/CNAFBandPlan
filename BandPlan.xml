@@ -294,7 +294,7 @@
 		<RangeEntry minFrequency="195000000" maxFrequency="223000000" color="teal">96 Radio digital</RangeEntry>
 
 	<!-- UN-99 Sistema GPS de posicionamiento por radio -->
-		<RangeEntry minFrequency="1559000000" maxFrequency="1610000000" color="magenta">99 GPS</RangeEntry>
+		<RangeEntry minFrequency="1559000000" maxFrequency="1610000000" color="teal">99 GPS</RangeEntry>
 
 	<!-- UN-100 Radioaficionados en la banda de 50 MHz -->
 		<RangeEntry minFrequency="50000000" maxFrequency="52000000" color="magenta">100 Radioaficionados</RangeEntry>
