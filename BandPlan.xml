@@ -9,6 +9,10 @@
 	<!--  * teal: radiodifusión -->
 	<!--  * purple: GSM -->
 
+	<!-- Radioaficionados según CNAF -->
+		<RangeEntry minFrequency="7000000" maxFrequency="7200000" color="magenta">Radioaficionados</RangeEntry>
+		<RangeEntry minFrequency="144000000" maxFrequency="146000000" color="magenta">Radioaficionados</RangeEntry>
+
 	<!-- UN-0 Usos del estado por debajo de 27MHz -->
 		<!-- Uso preferente del Ministerio de Defensa -->
 		<RangeEntry minFrequency="14000" maxFrequency="19950" color="orange">0 Defensa</RangeEntry>
