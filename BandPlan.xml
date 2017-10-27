@@ -251,6 +251,35 @@
 		<RangeEntry minFrequency="406412500" maxFrequency="406562500" step="25000" color="purple">77 Datos</RangeEntry>
 		<RangeEntry minFrequency="411412500" maxFrequency="411562500" step="25000" color="purple">77 Datos</RangeEntry>
 
+	<!-- UN-80 Usos del Estado en la banda 32 a 37,680 MHz -->
+		<RangeEntry minFrequency="32000000" maxFrequency="35025000" color="red">80 Defensa</RangeEntry>
+		<RangeEntry minFrequency="35205000" maxFrequency="36600000" color="red">80 Defensa</RangeEntry>
+		<RangeEntry minFrequency="36600000" maxFrequency="36800000" mode="WFM" step="100000" color="green">80 Audio doméstico</RangeEntry>
+		<RangeEntry minFrequency="36800000" maxFrequency="37000000" color="red">80 Defensa</RangeEntry>
+		<RangeEntry minFrequency="37000000" maxFrequency="37200000" mode="WFM" step="100000" color="green">80 Audio doméstico</RangeEntry>
+		<RangeEntry minFrequency="37200000" maxFrequency="37680000" color="red">80 Defensa</RangeEntry>
+
+	<!-- UN-81 Micrófonos inalámbricos en 30 MHz -->
+		<RangeEntry minFrequency="31487500" maxFrequency="31512500" mode="NFM" step="25000" color="blue">81 Micrófonos</RangeEntry>
+		<RangeEntry minFrequency="31737500" maxFrequency="31762500" mode="NFM" step="25000" color="blue">81 Micrófonos</RangeEntry>
+		<RangeEntry minFrequency="37862500" maxFrequency="37887500" mode="NFM" step="25000" color="blue">81 Micrófonos</RangeEntry>
+		<RangeEntry minFrequency="38287500" maxFrequency="38312500" mode="NFM" step="25000" color="blue">81 Micrófonos</RangeEntry>
+		<RangeEntry minFrequency="38537500" maxFrequency="38562500" mode="NFM" step="25000" color="blue">81 Micrófonos</RangeEntry>
+
+	<!-- UN-82 Aplicaciones de audio en 30 MHz -->
+		<RangeEntry minFrequency="30987500" maxFrequency="31012500" mode="NFM" step="25000" color="green">82 Walkies</RangeEntry>
+		<RangeEntry minFrequency="31337500" maxFrequency="31362500" mode="NFM" step="25000" color="green">82 Walkies</RangeEntry>
+		<RangeEntry minFrequency="37687500" maxFrequency="37712500" mode="NFM" step="25000" color="green">82 Walkies</RangeEntry>
+
+	<!-- UN-83 -->
+		<!-- Suprimida CNAF 2013 -->
+
+	<!-- UN-84 -->
+		<!-- Suprimida CNAF 2007 -->
+
+	<!-- UN-85 RLANs y datos en 2400 a 2483,5 MHz -->
+		<RangeEntry minFrequency="2400000000" maxFrequency="2483500000" color="green">82 RLANs y datos</RangeEntry>
+
 	<!-- UN-95 Micrófonos inalámbricos en VHF -->
 		<RangeEntry minFrequency="174000000" maxFrequency="174400000" mode="WFM" step="100000" color="green">95 Micrófonos</RangeEntry>
 		<RangeEntry minFrequency="175400000" maxFrequency="175600000" mode="WFM" step="100000" color="green">95 Micrófonos</RangeEntry>
