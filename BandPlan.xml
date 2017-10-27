@@ -299,9 +299,25 @@
 	<!-- UN-100 Radioaficionados en la banda de 50 MHz -->
 		<RangeEntry minFrequency="50000000" maxFrequency="52000000" color="magenta">100 Radioaficionados</RangeEntry>
 
+	<!-- UN-101 Usos del Estado en la banda 43,5-45,5 GHz -->
+		<RangeEntry minFrequency="43500000000" maxFrequency="45500000000" color="orange">101 Defensa</RangeEntry>
+
+	<!-- UN-102 Usos civiles del servicio móvil aeronáutico -->
+		<RangeEntry minFrequency="122000000" maxFrequency="123050000" mode="NFM" step="8330" color="blue">102 Móvil aeronáutico</RangeEntry>
+		<RangeEntry minFrequency="123150000" maxFrequency="123675000" mode="NFM" step="8330" color="blue">102 Móvil aeronáutico</RangeEntry>
+		<RangeEntry minFrequency="129700000" maxFrequency="130875000" mode="NFM" step="8330" color="blue">102 Móvil aeronáutico</RangeEntry>
+		<!-- TODO: frecuencias lucha incendios -->
+
+	<!-- UN-103 -->
+		<!-- Suprimida CNAF 2002 -->
+
 	<!-- UN-104 Teléfonos inalámbricos (CT1-E) -->
 		<RangeEntry minFrequency="870000000" maxFrequency="871000000" mode="NFM" step="12500" color="green">104 CT1 (móvil)</RangeEntry>
 		<RangeEntry minFrequency="915000000" maxFrequency="916000000" mode="NFM" step="12500" color="green">104 CT1 (base)</RangeEntry>
+
+	<!-- UN-111 Banda 862-868 MHz -->
+		<RangeEntry minFrequency="862000000" maxFrequency="868000000" mode="WFM" step="100000" color="blue">111 Enlace radiodifusión</RangeEntry>
+		<RangeEntry minFrequency="863000000" maxFrequency="868000000" color="green">111 Uso común</RangeEntry>
 
 	<!-- UN-127 Enlaces auxiliares de radiodifusión en 188-195 MHz -->
 		<RangeEntry minFrequency="188000000" maxFrequency="188200000" mode="WFM" step="100000" color="green">127 Micrófonos</RangeEntry>
@@ -316,6 +332,9 @@
 		<RangeEntry minFrequency="192000000" maxFrequency="194400000" mode="WFM" step="100000" color="blue">127 Enlace radiodifusión</RangeEntry>
 		<RangeEntry minFrequency="194400000" maxFrequency="194600000" mode="WFM" step="100000" color="green">127 Micrófonos</RangeEntry>
 		<RangeEntry minFrequency="194600000" maxFrequency="195000000" mode="WFM" step="100000" color="blue">127 Enlace radiodifusión</RangeEntry>
+
+	<!-- UN-135 Aplicaciones RFID en 865-868 MHz -->
+		<RangeEntry minFrequency="865000000" maxFrequency="868000000" color="green">135 RFID</RangeEntry>
 
 	<!-- UN-151 Dispositivos PMSE en la banda 823-832 MHz -->
 		<RangeEntry minFrequency="823000000" maxFrequency="832000000" color="green">151 PMSE</RangeEntry>
