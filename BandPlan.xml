@@ -140,7 +140,7 @@
 		<!-- Suprimida CNAF 2013 -->
 
 	<!-- UN-26 Banda de frecuencias 174-195MHz -->
-		<!-- UN-95, UN-105, UN-106 y UN-127 -->
+		<!-- No se definen frecuencias -->
 
 	<!-- UN-27 Banda de frecuencias 223 a 235 MHz -->
 		<RangeEntry minFrequency="223000000" maxFrequency="224500000" step="12500" color="blue">27 Trunked (base)</RangeEntry>
@@ -196,6 +196,27 @@
 		<RangeEntry minFrequency="461812500" maxFrequency="461837500" step="25000" color="blue">31 Radiobúsqueda</RangeEntry>
 		<RangeEntry minFrequency="461837500" maxFrequency="470000000" mode="NFM" step="12500" color="blue">31 PMR</RangeEntry>
 
+	<!-- UN–32 Aplicaciones ICM en 433 MHz -->
+		<!-- No se definen frecuencias -->
+
+	<!-- UN-33 -->
+		<!-- Suprimida CNAF 1998 -->
+
+	<!-- UN-34 -->
+		<!-- Suprimida CNAF 2013 -->
+
+	<!-- UN-35 -->
+		<!-- Suprimida CNAF 2013 -->
+
+	<!-- UN-36 Televisión digital -->
+		<RangeEntry minFrequency="470000000" maxFrequency="790000000" color="teal">36 Televisión digital</RangeEntry>
+
+	<!-- UN-37 -->
+		<!-- Suprimida CNAF 2002 -->
+
+	<!-- UN-38 -->
+		<!-- Suprimida CNAF 2002 -->
+
 	<!-- UN-39 Banda 868-870 MHz -->
 		<RangeEntry minFrequency="868000000" maxFrequency="868600000" color="green">39 SRD</RangeEntry>
 		<RangeEntry minFrequency="868600000" maxFrequency="868700000" step="25000" color="green">39 Alarmas</RangeEntry>
@@ -216,6 +237,15 @@
 	<!-- UN-41 Bandas 880-915 MHz y 925-960 MHz -->
 		<RangeEntry minFrequency="880000000" maxFrequency="915000000" color="purple">41 E-GSM</RangeEntry>
 		<RangeEntry minFrequency="925000000" maxFrequency="960000000" color="purple">41 E-GSM</RangeEntry>
+
+	<!-- UN-42 -->
+		<!-- Suprimida CNAF 2002 -->
+
+	<!-- UN-43 -->
+		<!-- Suprimida CNAF 2007 -->
+
+	<!-- UN-44 -->
+		<!-- Suprimida CNAF 2005 -->
 
 	<!-- UN-77 Datos en 400 MHz -->
 		<RangeEntry minFrequency="406412500" maxFrequency="406562500" step="25000" color="purple">77 Datos</RangeEntry>
