@@ -115,7 +115,7 @@
 		<!-- Suprimida CNAF 2013 -->
 
 	<!-- UN-17 Radiodifusión sonora en ondas métrica -->
-		<RangeEntry minFrequency="87500000" maxFrequency="108000000" mode="WFM" step="100000" color="blue">17 Radio FM</RangeEntry>
+		<RangeEntry minFrequency="87500000" maxFrequency="108000000" mode="WFM" step="100000" color="teal">17 Radio FM</RangeEntry>
 
 	<!-- UN-18 Compañías de transporte aéreo -->
 		<RangeEntry minFrequency="131387500" maxFrequency="131987500" step="25000" color="blue">18 Transporte aéreo</RangeEntry>
